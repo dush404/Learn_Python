@@ -17,3 +17,4 @@ a.addtonum(6)
 print(a.num)
 
 print(Math.add(7, 2)) 
+print(a.add(7, 2)) 

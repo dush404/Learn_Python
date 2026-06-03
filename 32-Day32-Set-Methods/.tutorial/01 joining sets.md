@@ -65,8 +65,8 @@ The symmetric_difference() and symmetric_difference_update() methods prints only
 cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
 cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
 cities3 = cities.symmetric_difference(cities2)
-print(cities3)
-```
+print(cities3)```
+
 #### Output:
 ```
 {'Seoul', 'Kabul', 'Berlin', 'Delhi'}

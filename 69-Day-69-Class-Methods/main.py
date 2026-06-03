@@ -3,7 +3,7 @@ class Employee:
   def show(self):
     print(f"The name is {self.name} and company is {self.company}")
 
-  @classmethod
+  @classmethod  # after this cls in class variable
   def changeCompany(cls, newCompany):
     cls.company = newCompany
 

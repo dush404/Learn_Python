@@ -1,6 +1,6 @@
 class Person:
 
-  def __init__(self, name, occ):
+  def __init__(self, name, occ):#constuctor create method
     print("Hey I am a person")
     self.name = name
     self.occ = occ
@@ -9,7 +9,7 @@ class Person:
     print(f"{self.name} is a {self.occ}")
 
 
-a = Person("Harry", "Developer")
+a = Person("Harry", "Developer")#this invoke __init__ fn
 b = Person("Divya", "HR") 
 a.info()
 b.info()

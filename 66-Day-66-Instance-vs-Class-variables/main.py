@@ -3,8 +3,8 @@ class Employee:
   noOfEmployees = 0
   def __init__(self, name):
     self.name = name
-    self.raise_amount = 0.02
-    Employee.noOfEmployees +=1
+    self.raise_amount = 0.02 #instence level variable
+    Employee.noOfEmployees +=1 # class variable
   def showDetails(self):
     print(f"The name of the Employee is {self.name} and the raise amount in {self.noOfEmployees} sized {self.companyName} is {self.raise_amount}")
 

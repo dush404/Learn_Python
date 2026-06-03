@@ -1,11 +1,13 @@
-# from math import sqrt, pi
-# from math import pi, sqrt as s
-# import math as math_builtin_python
+from math import sqrt, pi
+from math import *  # it import alll
+from math import sqrt as s
 
-# result = math_builtin_python.sqrt(9) * math_builtin_python.pi
-# print(result)  # Output: 3.0
+import math as math_builtin_python
 
-# from harry import welcome, harry
+result = math_builtin_python.sqrt(9) * math_builtin_python.pi
+print(result)  # Output: 3.0
+
+from harry import welcome, harry
 import harry as hr
 import math
 
@@ -13,3 +15,6 @@ print(dir(math))
 print(math.nan, type(math.nan))
 hr.welcome()
 print(hr.harry)
+import math
+print(s(16))
+# print(dir(math))

@@ -9,8 +9,8 @@ def func1():
     return 0
 
   finally:
-    print("I am always executed")
-  # print("I am always executed")
+    print("I am always executed")#after fn is return then also this line execute
+# print("I am always executed")##this can not execute if fn is return before it 
 
 
 x = func1()

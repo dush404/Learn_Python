@@ -1,0 +1,34 @@
+# import os
+# import random
+# import string
+
+# # if(not os.path.exists("files")):
+# #     os.mkdir("files")
+# # randomName = "".join(random.choices(string.ascii_letters, k=4))
+# # print(randomName)
+# # for i in range(0, 10):
+# #     randomName = "".join(random.choices(string.ascii_letters, k=4))  # Generate NEW name each iteration
+# #     if not os.path.exists("files/" + randomName + ".pdf"):
+# #         with open("files/" + randomName + ".pdf", "wb") as f:
+# #             pass
+
+
+# files = "files"
+# # print(os.listdir(files))
+# i=1
+# j=1
+# for file in os.listdir(files):
+#    extension = os.path.splitext(file)
+#    ext  = extension[1]
+
+#    old_file_path = os.path.join(files, file)
+
+# #    print(old_file_path)
+#    if ext == '.pdf':
+#         os.rename(old_file_path,f"files\{i}.pdf")
+#         # print("it is pdf")
+#         i += 1
+#    elif ext == '.png': 
+#         # print("it is png")
+#         os.rename(old_file_path,f"files\{j}.png")
+#         j += 1

@@ -1,6 +1,7 @@
 name = "Harry"
 friend = "Rohan"
 anotherFriend = 'Lovish'
+mango = 'indian mango is "best"'
 apple = '''He said, 
 Hi Harry
 hey I am good

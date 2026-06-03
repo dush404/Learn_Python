@@ -6,7 +6,7 @@ while i<7:
   #   break
 
 else:
-  print("Sorry no i")
+  print("Sorry no i")# if it execute then it means not loop break ,it is complete
 
 for x in range(5):
     print ("iteration no {} in for loop".format(x+1))

@@ -7,7 +7,7 @@ marks = [12, 56, 32, 98, 12,  45, 1, 4]
 #     print("Harry, awesome!")
 #   index +=1
 
-for index, mark in enumerate(marks, start=1):
+for index, mark in enumerate(marks, start=1): #it means we redefined idx
   print(mark)
   if(index == 3):
-    print("Harry, awesome!")
+    print("I am done")
