@@ -14,7 +14,7 @@ To continue your learning journey, consider exploring the following resources:
 
 ## Link to some resources
 - Tkinter - You can learn Tkinter which is used to create GUIs from [here](https://www.cs.mcgill.ca/~hv/classes/MS/TkinterPres/#Overview) :
-- Machine Learning - I loved [this](https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal) playlist from Google Developers
+- Machine Learning - I loved [this](https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal) playlist from Google Developers            
 - Django - For Django, try the [tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/) from the official documentation. Trust me its really good
 
 Overall, the key to mastering Python (or any programming language) is to keep practicing and experimenting. Set yourself challenges, work on personal projects, and stay curious. Good luck!

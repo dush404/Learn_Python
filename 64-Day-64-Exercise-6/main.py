@@ -20,7 +20,7 @@ class library:
     # def recieve_book(self,books):
     #      self.books=books
 
-my_library=library("vantara")
+my_library=library("vantara,encyclopedia")
 # your_books = library("atomic habit")
 # your_books = library("HarryPorter")
 my_library.show()
